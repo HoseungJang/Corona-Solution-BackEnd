@@ -19,6 +19,7 @@ You can see the details about blue-green deployment: [https://martinfowler.com/b
 블루-그린 배포를 위해 두 개의 도커 컨테이너가 필요합니다. 그리고 실제로 유저의 트래픽을 받을 용도인 컨테이너 하나 만을 배포해둡니다. 그러면 새롭게 배포할 일이 생겼을 때, 정지되어있던 컨테이너를 실행시켜 배포를 마치고, 트래픽을 새롭게 배포된 컨테이너로 바꾸어 주기만 하면 됩니다.
 
 블루-그린 배포에 대한 자세한 내용은 아래의 링크로 들어가시면 확인하실 수 있습니다.
+
 [https://martinfowler.com/bliki/BlueGreenDeployment.html](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 
 ### Using
